@@ -17,4 +17,4 @@ Caso alguma dessas testagens não passe nos filtros do código desenvolvido, uma
     <ul>[CEP]<br>
       <li>No campo CEP, além da validação, através da implementação da API ViaCEP, os campos de Logradouro, Cidade e Estado são automaticamente preenchidos, caso o CEP digitado seja válido e conste no banco de dados do IBGE.</li></ul><br>
   Na página de cadastro de produtos:<br>
-      <li>Utilização de máscara monetária para padronizar os input de valores.
+      <ul><li>Utilização de máscara monetária para padronizar os input de valores.</li></ul>
