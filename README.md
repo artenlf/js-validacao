@@ -1,6 +1,6 @@
 # js-validacao
 
-Página formulário de cadastro com validações utilizando regex e api para auto-preenchimento, desenvolvida no curso JavaScript na Web: validação de Formulários e HTML5, com o instrutor Matheus Alberto
+Página formulário de cadastro com validações utilizando regex, máscaras e api para auto-preenchimento, desenvolvida no curso JavaScript na Web: validação de Formulários e HTML5, com o instrutor Matheus Alberto.
 
 [checks]<br>
   Na página é possível fazer as seguintes testagens/checagens:<br>
@@ -15,4 +15,6 @@ Caso alguma dessas testagens não passe nos filtros do código desenvolvido, uma
     <ul>[CPF]<br>
       <li>No campo CPF, a validação do Dígito Verificador através da execução de rotina módulo 11 para obter os dois dígitos.</li></ul><br>
     <ul>[CEP]<br>
-      <li>No campo CEP, além da validação, através da implementação da API ViaCEP, os campos de Logradouro, Cidade e Estado são automaticamente preenchidos, caso o CEP digitado seja válido e conste no banco de dados do IBGE.</li></ul>
+      <li>No campo CEP, além da validação, através da implementação da API ViaCEP, os campos de Logradouro, Cidade e Estado são automaticamente preenchidos, caso o CEP digitado seja válido e conste no banco de dados do IBGE.</li></ul><br>
+  Na página de cadastro de produtos:<br>
+      <li>Utilização de máscara monetária para padronizar os input de valores.
